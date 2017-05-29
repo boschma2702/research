@@ -1,6 +1,6 @@
 package main;
 
-import employee.Manager;
+import employee.Boss;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,7 @@ public class Hotel {
 
     List<Room> rooms;
     List<Employee> employees;
-    Manager manager;
+    Boss boss;
 
     public Hotel() {
         rooms = new ArrayList<Room>();
@@ -17,7 +17,7 @@ public class Hotel {
             rooms.add(new Room(i));
         }
 
-        manager = new Manager("Bob", "Ross", 0);
+        boss = new Boss("Bob", "Ross", 0);
 
         employees = new ArrayList<Employee>();
         for (int i = 1; i < 10; i++) {
