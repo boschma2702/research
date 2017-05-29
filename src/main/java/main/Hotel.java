@@ -23,6 +23,6 @@ public class Hotel {
         for (int i = 1; i < 10; i++) {
             employees.add(new Employee("first" + i, "last" + i, i));
         }
-        
+
     }
 }
