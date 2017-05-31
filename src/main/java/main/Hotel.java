@@ -21,7 +21,7 @@ public class Hotel {
 
         employees = new ArrayList<Employee>();
         for (int i = 1; i < 10; i++) {
-            employees.add(new Employee("first" + i, "last" + i, i));
+            employees.add(new Employee("first" + i, "last" + i, i, i+402));
         }
 
     }
